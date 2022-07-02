@@ -4,7 +4,22 @@
 
 body {
     font-family: Roboto, sans-serif;
-    }
+    display:flex;
+    flex-direction: column;    
+}
+
+.header {
+    background-color: #1F2937;
+    display:flex;
+    justify-content: space-around;
+    flex:1 1 1;
+    align-items:center;
+}
+
+.logo {
+    display:flex;
+    height:40px;
+}
 
 ul li {
     display: inline;
@@ -17,6 +32,11 @@ a:link {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8
+}
+
+.a1 {
+
+    background-color: #1F2937;
 }
 
 .hero2 {
